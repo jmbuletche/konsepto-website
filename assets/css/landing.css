@@ -1,0 +1,140 @@
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/bg1.jpg");
+
+    /* Set a specific height */
+ 	height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;	
+}
+
+.style {
+	font-size: 60px;
+	color: white;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+
+a {
+	/*text-decoration: none;*/
+	font-size: 60px;
+	color: white!important;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: rgba(0,0,0, .70);
+
+}
+
+
+.style2 {
+	
+	padding: 250px;
+
+}
+
+
+p, a {
+	background-color: rgba(0,0,0, .70);
+    letter-spacing: 10px;
+}
+
+
+.parallax2 {
+    /* The image used */
+    background-image: url("../images/bg3.jpg");
+
+    /* Set a specific height */
+    height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax3 {
+    /* The image used */
+    background-image: url("../images/bg2.jpg");
+
+    /* Set a specific height */
+ 	height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax4 {
+    /* The image used */
+    background-image: url("../images/bg4.jpg");
+
+    /* Set a specific height */
+    height: 700px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.parallax5 {
+    /* The image used */
+    background-image: url("../images/bg5.jpg");
+
+    /* Set a specific height */
+    height: 700px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**tablet**/
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+
+	
+}
+
+
+/**mobile**/
+@media only screen and (max-width: 400px) {
+
+	
+}	

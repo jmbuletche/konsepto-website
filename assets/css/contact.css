@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+
+.logo{
+	height: 100px;
+	object-fit: cover;
+	margin: 0 auto;
+}
+
+
+.background{
+	background-image: url(../images/gallery/sofa4.jpg);
+	background-size: cover;
+	object-fit: cover;
+	top: 0;
+	/*height: 100%;*/
+
+}
+
+form{
+	background-color: #FFFF66;
+	padding: 20px;
+	border-radius: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+/*sections*/
+
+section{
+	height: 100vh;
+	width: 100%;
+}
+
+
+
+
+
+/*navbar*/
+.navbar {
+	background-color: #FFFF66;
+}		
+
+.navbar-brand, 
+.nav-link {
+	color: #000!important;
+	
+}
+
+.link {
+	border-bottom: 2px solid #000;
+}
+
+.nav-item:hover{
+	/*background-color: #EFEFEF;*/
+	font-weight: bold;
+	border-bottom: 2px solid #000;
+	color: #fff!important;
+	text-transform: uppercase;
+}
+/*end navbar*/
+
+
+
+.toplogo {
+	/*margin-top: 5px;*/
+	margin: 0 auto;
+	float: none;
+	text-align: center;
+}
+
+
+.toplogo img {
+	height: 100px;
+	object-fit: cover;
+	
+}
+
+
+small {
+	justify-content: center;
+	display: flex;
+	color: #000;
+	font-size: 10px;
+	font-weight: 10px;
+	letter-spacing: 5px;
+	padding-top: 30px;
+	display: inline;
+
+}	
+
+footer {
+	background-color: #FFFF66;
+	height:15vh;
+	width: 100%;
+}
+
+i {
+
+	padding: 10px;
+	font-size: 30px;
+	text-align: center;
+	color: #000;
+	display: flex;
+	justify-content: center;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+	padding: 5px;
+}
+
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+
+
+
+
+}
+
+
+
+@media only screen and (max-width: 400px) {
+
+
+}
